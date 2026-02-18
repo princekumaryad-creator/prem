@@ -155,29 +155,7 @@
                     </form>
                 </div>
         </div></section>
-        <section>
-
-             <script>
-  const username = "https://github.com/princekumaryad-creator/prem";
-  const repoList = document.getElementById("repo-list");
-
-  fetch(`https://api.github.com/users/${username}/repos`)
-    .then(response => response.json())
-    .then(data => {
-      data.forEach(repo => {
-        const div = document.createElement("div");
-        div.className = "repo";
-        div.innerHTML = `
-          <h3>${repo.name}</h3>
-          <p>${repo.description || "No description"}</p>
-          <a href="${repo.html_url}" target="_blank">View Code</a>
-        `;
-        repoList.appendChild(div);
-      });
-    });
-</script>
-        </section>
-        <br> <br> <br>
+                <br> <br> <br>
         <footer>
             <p>Copyright © 2026 Prem Prakash Yadav . All Rights Reserved.</p>
             <p>Designed by Prem Prakash Yadav 💖</p>
