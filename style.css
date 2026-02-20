@@ -70,14 +70,14 @@ nav a:hover::after{
     display:flex;
     align-items:center;
     background: linear-gradient(to right,green,red);
-    justify-content:space-around;
+    justify-content:space-between;
     padding:60px;
 }
 .hero-img img{
+    margin-top: 50px;
     width:320px;
     height:320px;
     border-radius:50%;
-    
     border:5px solid pink;
     object-fit:cover;
 }
