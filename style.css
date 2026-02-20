@@ -15,37 +15,39 @@ body{
 header{
     height: 50px;
     width: 100%;
-     position: fixed;
-     background-color: #000;
-     border-color: #999999;
+    position: fixed;
+    background : black;
+    border-color: #d11616;
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 60px;
+    
 }
+
 
 
 .logo{
     font-size:10px;
     font-weight:bold;
-    color:#ff2f92;
+    color:linear-gradient(to right,green,red);
 }
 
 .logo {
-  -webkit-text-stroke:1.5px blue;
+  -webkit-text-stroke: 2px orangered;
 }
 
 .logo{
   -webkit-text-stroke-width:1px;
-  -webkit-text-stroke-color:rgb(177, 197, 177);
+  -webkit-text-stroke-color:linear-gradient(to right,green,red);
 }
 
 .icon {
-  -webkit-text-fill-color:red;
+  -webkit-text-fill-color:linear-gradient(to right,green,red);
   -webkit-text-stroke:0.5px tomato;
 }
 nav a{
-    color:#fff;
+    color:white;
     text-decoration:none;
     margin-left:25px;
     position:relative;
@@ -54,7 +56,7 @@ nav a::after{
     content:'';
     width:0;
     height:2px;
-    background:#ff2f92;
+    background: linear-gradient(to right,green,red);
     position:absolute;
     left:0;
     bottom:-5px;
@@ -67,6 +69,7 @@ nav a:hover::after{
 .hero{
     display:flex;
     align-items:center;
+    background: linear-gradient(to right,green,red);
     justify-content:space-around;
     padding:60px;
 }
@@ -74,7 +77,8 @@ nav a:hover::after{
     width:320px;
     height:320px;
     border-radius:50%;
-    border:5px solid #ff2f92;
+    
+    border:5px solid pink;
     object-fit:cover;
 }
 .hero-text h1{
