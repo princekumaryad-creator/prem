@@ -170,4 +170,277 @@
     </div>
 <br> <br>
 </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Prem Prakash Yadav Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body class="scroll-smooth bg-gray-100">
+
+<!-- ================= HEADER ================= -->
+<header class="fixed top-0 w-full bg-gradient-to-r from-red-600 to-green-600 text-white p-4 z-50 shadow-lg">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Prem Prakash Yadav</h1>
+
+        <nav class="space-x-6 hidden md:block">
+            <a href="#Home" class="hover:text-yellow-300">Home</a>
+            <a href="#About" class="hover:text-yellow-300">About</a>
+            <a href="#Skills" class="hover:text-yellow-300">Skills</a>
+            <a href="#Portfolio" class="hover:text-yellow-300">Projects</a>
+            <a href="#Contact" class="hover:text-yellow-300">Contact</a>
+            <a href="#services" class="hover:text-yellow-300">Services</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= HOME ================= -->
+<section id="Home" class="h-screen flex items-center relative overflow-hidden">
+
+    <!-- Background Slider -->
+    <div class="absolute w-full h-full border-rounded-lg">
+        <img class="slide w-full h-full object-cover absolute" src="images/logo.jpeg">
+        <img class="slide w-full h-full object-cover absolute hidden" src="images/web devlopment.jpeg">
+        <img class="slide w-full h-full object-cover absolute hidden" src="images/Web-development pic.jpg">
+    </div>
+
+    <div class="absolute w-full h-full bg-black bg-opacity-60"></div>
+
+    <div class="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 mt-16 text-white">
+
+        <div class="md:w-1/2 text-center md:text-left">
+            <h1 class="text-5xl font-bold mb-4">
+                Hey, I'm 
+                <span id="typing" class="text-green-400"></span>
+            </h1>
+            <p class="text-lg mb-6">
+                B.Tech(CSE)Student | Web Developer
+            </p>
+        </div>
+
+        <div class="md:w-1/2 flex justify-center mt-10 md:mt-0">
+            <img src="images/prem pic.jpg"
+                 class="w-80 h-80 object-cover rounded-full border-4 border-purple-400 shadow-lg">
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="About" class="py-16 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="max-w-4xl mx-auto text-gray-700 text-lg">
+        Hello! I'm <span class="text-green-600">Prem Prakash Yadav</span>, a 3rd year B.Tech CSE student.
+        I am passionate about Web Development and love building modern,
+        clean and responsive websites using HTML, CSS, JavaScript and Python.
+        My goal is to become a professional full-stack developer.
+    </p>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="Skills" class="py-16 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-8">My Skills</h2>
+
+    <div class="grid grid-cols-3 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
+
+        <div class="bg-sky-500 p-2 rounded-sm shadow hover:scale-105 transition">
+            <img src="images/html.jpeg" class="w-full h-24 object-cover mx-auto mb-2">
+            <p>HTML</p>
+        </div>
+
+        <div class="bg-sky-500 p-2 rounded-lg shadow hover:scale-105 transition">
+            <img src="images/css.jpeg" class="w-full h-24 object-cover mx-auto mb-2">
+            <p>CSS</p>
+        </div>
+
+        <div class="bg-sky-500 p-2 rounded-lg shadow hover:scale-105 transition">
+            <img src="images/java script.jpeg" class=" w-full h-24 object-cover mx-auto mb-2">
+            <p>JavaScript</p>
+        </div>
+
+        <div class="bg-sky-500 p-2 rounded-lg shadow hover:scale-105 transition ">
+            <img src="images/sql.jpeg" class=" w-full h-24 object-cover mx-auto mb-2">
+            <p>SQL</p>
+        </div>
+
+    </div>
+</section>
+<!-- My Services Section -->
+<section id="services" class="py-16 bg-orange-100 text-center">
+
+    <!-- Heading -->
+    <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold">
+            My Services
+        </h2>
+        <p class="text-gray-500 mt-2">
+           <u> What I can do for you </u>
+        </p>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="max-w-6xl mx-auto px-6 grid 
+                grid-cols-1 
+                sm:grid-cols-2 
+                md:grid-cols-3 
+                gap-8">
+
+        <!-- Service Card 1 -->
+        <div class="bg-orange-300 hover:bg-orange-400 p-6 rounded-xl 
+                    shadow-md hover:shadow-xl 
+                    hover:-translate-y-2 
+                    transition duration-300">
+
+            <div class="text-4xl mb-4">💻</div>
+
+            <h3 class="text-xl font-semibold mb-2">
+                Web Development
+            </h3>
+
+            <p class="text-white text-sm">
+                I create responsive and modern websites using HTML, CSS, JavaScript and Tailwind.
+            </p>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="bg-orange-300 hover:bg-orange-400 p-6 rounded-xl 
+                    shadow-md hover:shadow-xl 
+                    hover:-translate-y-2 
+                    transition duration-300">
+
+            <div class="text-4xl mb-4">🎨</div>
+
+            <h3 class="text-xl font-semibold mb-2">
+                UI Design
+            </h3>
+
+            <p class="text-white text-sm">
+                Clean and attractive user interface design for better user experience.
+            </p>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="bg-orange-300 hover:bg-orange-400  p-6 rounded-xl 
+                    shadow-md hover:shadow-xl 
+                    hover:-translate-y-2 
+                    transition duration-300">
+
+            <div class="text-4xl mb-4">🗄️</div>
+
+            <h3 class="text-xl font-semibold mb-2">
+                Database Management
+            </h3>
+
+            <p class="text-white text-sm">
+                Designing and managing structured databases using SQL.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="Portfolio" class="py-16 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-8">Latest Projects</h2>
+
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+        <div class="bg-gray-100 rounded-lg shadow overflow-hidden hover:scale-105 transition">
+            <img src="images/mern strack r.jfif" class="w-full h-48 object-cover bg-red-500">
+            <div class="p-4">
+                <h3 class="font-bold bg-sky-500 hover:bg-sky-700 text-white p-2 rounded">MERN Stack</h3>
+            </div>
+        </div>
+
+        <div class="bg-gray-100 rounded-lg shadow overflow-hidden hover:scale-105 transition">
+            <img src="images/mern strack.jfif" class="w-full h-48 object-cover bg-red-500">
+            <div class="p-4">
+                <h3 class="font-bold bg-sky-500 hover:bg-sky-700 text-white p-2 rounded"> MERN Stack</h3>
+            </div>
+        </div>
+
+        <div class="bg-gray-100 rounded-lg shadow overflow-hidden hover:scale-105 transition">
+            <img src="images/Web-development pic.jpg" class="w-full h-48 object-cover bg-red-500">
+            <div class="p-4">
+                <h3 class="font-bold bg-sky-500 hover:bg-sky-700 text-white p-2 rounded">Web devlopment</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="Contact" class="py-16 bg-orange-200 text-center">
+    <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+
+    <div class="max-w-xl mx-auto bg-sky-500 p-8 rounded-lg shadow-lg">
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name"
+                class="w-full mb-4 p-3 border rounded" required>
+
+            <input type="email" placeholder="Your Email"
+                class="w-full mb-4 p-3 border rounded" required>
+
+            <textarea placeholder="Your Message"
+                class="w-full mb-4 p-3 border rounded" rows="4" required></textarea>
+
+            <button type="submit"
+                class=" bg-blue-700 hover:bg-blue-900  text-white px-6 py-2 rounded hover:scale-105 transition">
+                Send Message
+            </button>
+        </form>
+
+        <p id="successMessage" class="text-green-600 mt-4 hidden font-bold">
+            ✅ Message Sent Successfully!
+        </p>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-black text-white text-center p-4">
+    <p> copyright © 2026 Prem Prakash Yadav | All Rights Reserved</p>
+    <p>Designed with ❤️ by Prem Prakash Yadav</p>
+</footer>
+
+<!-- ================= TYPING ANIMATION ================= -->
+<script>
+const text = "Prem Prakash Yadav...";
+let i = 0;
+function typeEffect() {
+    if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeEffect, 100);
+    }
+}
+typeEffect();
+</script>
+
+<!-- ================= SLIDER ================= -->
+<script>
+let slides = document.querySelectorAll(".slide");
+let index = 0;
+function showSlide() {
+    slides.forEach(slide => slide.classList.add("hidden"));
+    slides[index].classList.remove("hidden");
+    index = (index + 1) % slides.length;
+}
+setInterval(showSlide, 3000);
+</script>
+
+<!-- ================= CONTACT SUCCESS ================= -->
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("successMessage").classList.remove("hidden");
+    this.reset();
+});
+</script>
+
+</body>
 </html>
